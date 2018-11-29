@@ -54,21 +54,21 @@ function createMap(earthquakes) {
     attribution: "Map data &copy; <a href=\"https://www.openstreetmap.org/\">OpenStreetMap</a> contributors, <a href=\"https://creativecommons.org/licenses/by-sa/2.0/\">CC-BY-SA</a>, Imagery © <a href=\"https://www.mapbox.com/\">Mapbox</a>",
     maxZoom: 18,
     id: "mapbox.streets",
-    accessToken: API_KEY
+    accessToken: "pk.eyJ1Ijoia2VubnlqYWkiLCJhIjoiY2ptc2kxNjR2MmJ3ODN3bGI1czR5cGVjcyJ9.VlEu3ZoNoFMY6JJfpSr6NA"
   });
 
   var darkmap = L.tileLayer("https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}", {
     attribution: "Map data &copy; <a href=\"https://www.openstreetmap.org/\">OpenStreetMap</a> contributors, <a href=\"https://creativecommons.org/licenses/by-sa/2.0/\">CC-BY-SA</a>, Imagery © <a href=\"https://www.mapbox.com/\">Mapbox</a>",
     maxZoom: 18,
     id: "mapbox.dark",
-    accessToken: API_KEY
+    accessToken: "pk.eyJ1Ijoia2VubnlqYWkiLCJhIjoiY2ptc2kxNjR2MmJ3ODN3bGI1czR5cGVjcyJ9.VlEu3ZoNoFMY6JJfpSr6NA"
   });
 
   var lightmap = L.tileLayer("https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}", {
     attribution: "Map data &copy; <a href=\"https://www.openstreetmap.org/\">OpenStreetMap</a> contributors, <a href=\"https://creativecommons.org/licenses/by-sa/2.0/\">CC-BY-SA</a>, Imagery © <a href=\"https://www.mapbox.com/\">Mapbox</a>",
     maxZoom: 18,
     id: "mapbox.light",
-    accessToken: API_KEY
+    accessToken: "pk.eyJ1Ijoia2VubnlqYWkiLCJhIjoiY2ptc2kxNjR2MmJ3ODN3bGI1czR5cGVjcyJ9.VlEu3ZoNoFMY6JJfpSr6NA"
   });
 
   // Define a baseMaps object to hold our base layers
