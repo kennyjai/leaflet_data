@@ -1,9 +1,5 @@
 # Unit 17 | Assignment - Visualizing Data with Leaflet
 
-## Link
-
-https://kennyjai.github.io/leaflet_data/
-
 ## Background
 
 ![1-Logo](Images/1-Logo.png)
